@@ -1,5 +1,5 @@
 import re
-file = open("american_tabloid.txt", "r")
+file = open("hitchhiker.txt", "r")
 sample = file.read()
 
 sentences = re.split("(?<=[.!?]) +", sample)
